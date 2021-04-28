@@ -30,7 +30,7 @@ function App() {
             setDone(1)
             setDisplay(<><h1>Correct!</h1><h2>Click Next to continue</h2></>)
           } else {
-            setDisplay(<><h1>Thanks for playing!</h1><h2>You had {misses} misses.</h2></>)
+            setDisplay(<><h1>Thanks for playing!</h1><h2>You had {misses} misses.</h2><a href="https://davidquizzes.github.io">Go to the home page for more quizzes</a></>)
             setDone(2)
           }
         } else {
@@ -45,7 +45,7 @@ function App() {
             setDone(1)
             setDisplay(<><h1>Correct!</h1><h2>Click Next to continue</h2></>)
           } else {
-            setDisplay(<><h1>Thanks for playing!</h1><h2>You had {misses} misses.</h2></>)
+            setDisplay(<><h1>Thanks for playing!</h1><h2>You had {misses} misses.</h2><a href="https://davidquizzes.github.io">Go to the home page for more quizzes</a></>)
             setDone(2)
           }
         } else {
@@ -60,7 +60,7 @@ function App() {
             setDone(1)
             setDisplay(<><h1>Correct!</h1><h2>Click Next to continue</h2></>)
           } else {
-            setDisplay(<><h1>Thanks for playing!</h1><h2>You had {misses} misses.</h2></>)
+            setDisplay(<><h1>Thanks for playing!</h1><h2>You had {misses} misses.</h2><a href="https://davidquizzes.github.io">Go to the home page for more quizzes</a></>)
             setDone(2)
           }
         } else {
@@ -75,7 +75,7 @@ function App() {
             setDone(1)
             setDisplay(<><h1>Correct!</h1><h2>Click Next to continue</h2></>)
           } else {
-            setDisplay(<><h1>Thanks for playing!</h1><h2>You had {misses} misses.</h2></>)
+            setDisplay(<><h1>Thanks for playing!</h1><h2>You had {misses} misses.</h2><a href="https://davidquizzes.github.io">Go to the home page for more quizzes</a></>)
             setDone(2)
           }
         } else {
