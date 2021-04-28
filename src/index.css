@@ -17,13 +17,13 @@ h2 {
 }
 
 button {
+  transition: 500ms;
   padding: 30px;
   font-size: 18px;
   background-color: #eeeeee;
   border: 2px solid #000000;
 }
 button:hover {
-  transition: 500ms;
   background-color: #111111;
   color: #ffffff;
 }
