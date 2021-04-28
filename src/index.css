@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto&family=Ubuntu&display=swap');
+
+body {
+  text-align: center;
+  margin-top: 0px;
+  margin-left: 0px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 1em;
+}
+
+h1 {
+  font-family: 'Montserrat', sans-serif;
+}
+
+h2 {
+  font-family: 'Ubuntu', sans-serif;
+}
+
+button {
+  padding: 30px;
+  font-size: 18px;
+  background-color: #eeeeee;
+  border: 2px solid #000000;
+}
+button:hover {
+  transition: 500ms;
+  background-color: #111111;
+  color: #ffffff;
+}
+
+.content {
+  margin-bottom: 120px;
+}
+
+.bottombar {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: #dddddd;
+  padding: 10px;
+  text-align: center;
+}
