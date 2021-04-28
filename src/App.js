@@ -34,7 +34,7 @@ function App() {
             setDone(2)
           }
         } else {
-          setDisplay(<><h1>Incorrect! Try again:</h1><br />{questions[currentQuestion].questionJSX}</>)
+          setDisplay(<><h1>Incorrect! Try again:</h1>{questions[currentQuestion].questionJSX}</>)
           setMisses(misses + 1)
         }
         break;
@@ -49,7 +49,7 @@ function App() {
             setDone(2)
           }
         } else {
-          setDisplay(<><h1>Incorrect! Try again:</h1><br />{questions[currentQuestion].questionJSX}</>)
+          setDisplay(<><h1>Incorrect! Try again:</h1>{questions[currentQuestion].questionJSX}</>)
           setMisses(misses + 1)
         }
         break;
@@ -79,7 +79,7 @@ function App() {
             setDone(2)
           }
         } else {
-          setDisplay(<><h1>Incorrect! Try again:</h1><br />{questions[currentQuestion].questionJSX}</>)
+          setDisplay(<><h1>Incorrect! Try again:</h1>{questions[currentQuestion].questionJSX}</>)
           setMisses(misses + 1)
         }
         break;
